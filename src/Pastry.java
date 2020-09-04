@@ -6,4 +6,8 @@ public abstract class Pastry {
 	}
 	
 	public abstract int yumFactor();
+	
+	public void getYums() {
+		System.out.println("  " + "yum ".repeat(yumFactor()));
+	}
 }

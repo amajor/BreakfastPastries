@@ -8,14 +8,14 @@ public class BreakfastSimulator {
 		pastry1 = new Syrup(pastry1);
 		System.out.println("\nEwan is having...");
 		System.out.println("  " + pastry1.getDescription());
-		System.out.println("  " + "yum ".repeat(pastry1.yumFactor()));
+		pastry1.getYums();
 		
 		// Build Chris's breakfast: Waffles!
 		Pastry pastry2 = new Waffle();
 		pastry2 = new WhippedCream(pastry2);
 		pastry2 = new Strawberries(pastry2);
 		System.out.println("\nChris is having...");
-		System.out.println("  " + pastry2.getDescription());
-		System.out.println("  " + "yum ".repeat(pastry2.yumFactor()));
+		System.out.println("  " + pastry2.getDescription());		
+		pastry2.getYums();
 	}
 }
