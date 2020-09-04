@@ -4,4 +4,6 @@ public abstract class Pastry {
 	public String getDescription() {
 		return description;
 	}
+	
+	public abstract int yumFactor();
 }

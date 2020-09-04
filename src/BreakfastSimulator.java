@@ -7,10 +7,12 @@ public class BreakfastSimulator {
 		Pastry pastry1 = new Pancake();
 		System.out.println("\nEwan is having...");
 		System.out.println("  " + pastry1.getDescription());
+		System.out.println("  " + pastry1.yumFactor());
 		
 		// Build Chris' breakfast: Waffles!
 		Pastry pastry2 = new Waffle();
 		System.out.println("\nChris is having...");
 		System.out.println("  " + pastry2.getDescription());
+		System.out.println("  " + pastry2.yumFactor());
 	}
 }
