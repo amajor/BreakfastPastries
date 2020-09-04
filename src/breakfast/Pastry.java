@@ -1,3 +1,4 @@
+package breakfast;
 public abstract class Pastry {
 	String description = "Unknown Pastry";
 	

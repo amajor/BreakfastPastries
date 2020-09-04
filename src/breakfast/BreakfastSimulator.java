@@ -1,3 +1,5 @@
+package breakfast;
+
 public class BreakfastSimulator {
 	public static void main(String args[]) {
 		// Print out what we're doing!

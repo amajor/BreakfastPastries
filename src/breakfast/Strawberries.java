@@ -1,3 +1,5 @@
+package breakfast;
+
 public class Strawberries extends ToppingDecorator {
 	public Strawberries(Pastry pastry) {
 		this.pastry = pastry;

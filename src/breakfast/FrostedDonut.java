@@ -1,3 +1,4 @@
+package breakfast;
 public class FrostedDonut extends Pastry {
 	public FrostedDonut() {
 		description = "Frosted Donut";
