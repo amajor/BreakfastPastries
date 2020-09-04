@@ -17,5 +17,21 @@ public class BreakfastSimulator {
 		System.out.println("\nChris is having...");
 		System.out.println("  " + pastry2.getDescription());		
 		pastry2.getYums();
+		
+		// Build Alison's breakfast: Pancakes!
+		Pastry pastry3 = new Pancake();
+		pastry3 = new PeanutButter(pastry3);
+		pastry3 = new Syrup(pastry3);
+		pastry3 = new ChocolateChips(pastry3);
+		System.out.println("\nAlison is having...");
+		System.out.println("  " + pastry3.getDescription());		
+		pastry3.getYums();
+		
+		// Build Gwynnie's breakfast: Donut!
+		Pastry pastry4 = new FrostedDonut();
+		pastry4 = new Sprinkles(pastry4);
+		System.out.println("\nGwynnie is having...");
+		System.out.println("  " + pastry4.getDescription());		
+		pastry4.getYums();
 	}
 }
